@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>KopKel Merah Putih Potu</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+    header, nav, footer { background-color: #d62828; color: white; padding: 1em; text-align: center; }
+    nav a { color: white; margin: 0 1em; text-decoration: none; }
+    main { padding: 2em; }
+    section { margin-bottom: 2em; }
+    .gallery img { width: 200px; margin: 10px; border-radius: 8px; }
+    form input, form textarea, form button { display: block; margin-top: 10px; width: 100%; max-width: 400px; }
+    .file-list a { display: block; margin-top: 5px; }
+    .logo { max-width: 100px; margin-bottom: 10px; }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="LOGO KOPERASI.png" alt="Logo Koperasi" class="logo">
+    <h1>KopKel Merah Putih Potu</h1>
+    <p>Website Informasi dan Kegiatan Koperasi</p>
+  </header>
+
+  <nav>
+    <a href="#berita">Berita</a>
+    <a href="#formulir">Formulir</a>
+    <a href="#galeri">Galeri</a>
+    <a href="#login">Login</a>
+    <a href="#unduhan">Unduhan</a>
+  </nav>
+
+  <main>
+    <section id="berita">
+      <h2>Berita & Informasi</h2>
+      <article>
+        <h3>Program Simpan Pinjam Dimulai</h3>
+        <p>Program simpan pinjam anggota telah dibuka mulai bulan Mei 2025. Silakan mendaftar melalui formulir yang disediakan.</p>
+      </article>
+      <article>
+        <h3>Pembagian Sembako</h3>
+        <p>Pembagian bantuan sembako untuk anggota aktif dilaksanakan tanggal 10 Juni 2025.</p>
+      </article>
+    </section>
+
+    <section id="formulir">
+      <h2>Formulir Pendaftaran</h2>
+      <p>Silakan isi formulir melalui tautan berikut:</p>
+      <a href="https://docs.google.com/forms/d/e/1FAIpQLSd_OnR6DQ0QRccVTeCyv6E0CC1uq6f5KwAVphWo-xTMpk8zvg/viewform?usp=sharing&ouid=114785215478403703256" target="_blank">
+        👉 Isi Formulir Pendaftaran
+      </a>
+    </section>
+
+    <section id="galeri">
+      <h2>Galeri Foto</h2>
+      <div class="gallery">
+        <img src="https://via.placeholder.com/200" alt="Kegiatan 1">
+        <img src="https://via.placeholder.com/200" alt="Kegiatan 2">
+        <img src="https://via.placeholder.com/200" alt="Kegiatan 3">
+      </div>
+    </section>
+
+    <section id="login">
+      <h2>Login Anggota</h2>
+      <form>
+        <label for="user">Username</label>
+        <input type="text" id="user" name="user">
+
+        <label for="pass">Password</label>
+        <input type="password" id="pass" name="pass">
+
+        <button type="submit">Login</button>
+      </form>
+      <p><em>*Form login ini hanya tampilan. Untuk fungsi login sungguhan, perlu backend server.</em></p>
+    </section>
+
+    <section id="unduhan">
+      <h2>File Unduhan</h2>
+      <div class="file-list">
+        <a href="#" download>Formulir Simpan Pinjam.pdf</a>
+        <a href="#" download>Data Anggota Terbaru.xlsx</a>
+        <a href="#" download>Panduan Koperasi 2025.pdf</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 KopKel Merah Putih Potu | Alamat: Potu, Kec. Dompu, Kab. Dompu</p>
+  </footer>
+</body>
+</html>
